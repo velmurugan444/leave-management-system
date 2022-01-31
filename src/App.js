@@ -38,6 +38,7 @@ import { Viewstudents } from './pages/view_students';
 import { Viewfeedback } from './pages/view_feedback';
 import { Viewteachers } from './pages/view_teachers';
 import { Viewrepresentative } from './pages/view_representative';
+import Navbar from './pages/navbar';
 
 
 class App extends React.Component {
@@ -47,6 +48,7 @@ class App extends React.Component {
     return (
 
       <Router>
+        <Navbar />
         <div className="App">
           <Switch>
             <Route exact path="/">
