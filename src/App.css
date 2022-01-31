@@ -1,0 +1,346 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#get{
+    background-color: black;
+    width: 12%;
+  }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tutor-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.submit {
+  background-color: black;
+}
+.leaveform-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#representative-options {
+  margin-right: 37%;
+  margin-top: 16.4%;
+  margin-left: auto;
+}
+.permission-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: auto;
+}
+.report-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: auto;
+}
+.message-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: auto;
+}
+.section {
+  width: 100%;
+  height: 33px;
+}
+.department {
+  width: 100%;
+  height: 33px;
+}
+.days {
+  width: 100%;
+  height: 33px;
+}
+.section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.tutor-section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.teacher-section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.representative-section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.student-section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.year {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+}
+.btn {
+  margin-top: 0%;
+  margin-right: 0%;
+}
+#tutor-button {
+  margin-top: 5%;
+  margin-right: 26%;
+}
+#representative-button {
+  margin-top: 1%;
+  margin-right: -11.5%;
+}
+#add-students {
+  margin-top: -5.5%;
+  margin-right: -33%;
+}
+.deny-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0%;
+}
+.allow-button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+#hod-permission-status {
+  color: rgb(24, 185, 24);
+}
+#hod-permission-rejected-status {
+  color: red;
+}
+.response-card {
+  background-color: lightgreen;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feedback-card {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rejected-card {
+  background-color: #ffcccb;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#button-group {
+  margin-right: 7%;
+  margin-top: 0.4%;
+}
+#incharge-option {
+  margin-right: 7%;
+  margin-top: 0.4%;
+}
+#student-options {
+  margin-right: 10%;
+  margin-top: 7.4%;
+}
+
+#teacher-options {
+  margin-right: 10%;
+  margin-top: 0.4%;
+}
+#message-icon {
+  font-size: 24px;
+  color: red;
+}
+.retrieve-date {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-upload {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.get-button {
+  width: 16%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+h2{
+  font-size: 26px;
+}
+@media only screen and (max-width: 600px) {
+  .login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px;
+    margin-left: 0%;
+  }
+  .brand-wrapper .logo {
+    height: 37px;
+    margin-left: 0;
+  }
+  #incharge-options {
+    margin-right: 0%;
+    margin-top: 0.4%;
+    width: 100%;
+  }
+  h2{
+    font-size: 22px;
+  }
+
+  .report-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    margin-bottom: auto;
+  }
+  .feedback-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14%;
+  }
+  .tutor-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    margin-bottom: auto;
+  }
+  .leaveform-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: auto;
+  }
+  #student-options {
+    margin-right: 17%;
+    margin-top: 16.4%;
+    margin-left: auto;
+  }
+
+  .retrieve-date {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #button-group {
+    margin-right: 17%;
+    margin-top: 0.4%;
+  }
+  .section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33px;
+  }
+  .year {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33px;
+  }
+  .permission-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+  }
+  #teacher-options {
+    margin-right: 37%;
+    margin-top: 0.4%;
+  }
+  .response-card {
+    background-color: lightgreen;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+  }
+  .rejected-card {
+    background-color: #ffcccb;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+  }
+  .message-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: auto;
+  }
+  #get{
+    background-color: black;
+    width: 29%;
+  }
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

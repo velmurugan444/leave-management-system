@@ -1,0 +1,18 @@
+            <nav className="nav-menu d-none d-sm-block">
+              <ul>
+                <li className="active"><Link to="/">Home</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Service">Services</Link></li>
+                <li><Link to="/Staff">Staffs</Link></li>
+                <li className="drop-down"><Link>Login</Link>
+                  <ul>
+                    <li><Link to="/Studentlogin">Student Login</Link></li>
+                    <li><Link to="/Representativelogin">Representative Login</Link></li>
+                    <li><Link to="/Tutorlogin">Tutor Login</Link></li>
+                    <li><Link to="/Teacherlogin">Teacher Login</Link></li>
+                    <li><Link to="/Hodlogin">HOD Login</Link></li>
+                  </ul>
+                </li>
+                <li><Link to="/Contact">Contact</Link></li>
+              </ul>
+            </nav>

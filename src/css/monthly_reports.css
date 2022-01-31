@@ -1,0 +1,9 @@
+.alert-danger{
+    margin-left: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .alert-danger{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
