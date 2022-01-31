@@ -36,12 +36,12 @@ const Tutorlogin = () => {
         <div className="card login-card">
           <div className="row no-gutters">
             <div className="col-md-5">
-              <img src="leave-management-system/assets/img/teacher.jpg" alt="login" className="login-card-img" />
+              <img src="assets/img/teacher.jpg" alt="login" className="login-card-img" />
             </div>
             <div className="col-md-7">
               <div className="card-body">
                 <div className="brand-wrapper">
-                  <img src="leave-management-system/assets/img/logo.svg" alt="logo" className="logo" />
+                  <img src="assets/img/logo.svg" alt="logo" className="logo" />
                 </div>
                 <p className="login-card-description">Sign into your account</p>
                 <form onSubmit={handleSubmit}>
