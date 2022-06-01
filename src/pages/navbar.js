@@ -64,8 +64,10 @@ const Navbar = () => {
                     <li><Link to="/Tutorlogin">Tutor Login</Link></li>
                     <li><Link to="/Teacherlogin">Teacher Login</Link></li>
                     <li><Link to="/Hodlogin">HOD Login</Link></li>
+                    <li><Link to="/transportlogin">Transport Login</Link></li>
                   </ul>
                 </li>
+                <li><Link to="/Transport">Transport</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
               </ul>
             </nav>

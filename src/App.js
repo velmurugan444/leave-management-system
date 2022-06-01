@@ -1,51 +1,52 @@
-import Home from './pages/home';
-import About from './pages/about';
-import Service from './pages/services';
-import Staff from './pages/staff';
-import Contact from './pages/contact';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Studentlogin from './pages/student_login';
-import Tutorlogin from './pages/tutor_login';
-import Hodlogin from './pages/hod_login';
-import LeaveForm from './pages/leave_form';
-import TutorPage from './pages/tutorpage';
-import Addstudentspage from './pages/addstudentspage';
-import Hodpage from './pages/hodpage';
-import Addtutorspage from './pages/addtutorspage';
-import Permissionresponsepage from './pages/permission_response';
-import Addrepresentativepage from './pages/add_representative';
-import Representativepage from './pages/representative_page';
-import Representativelogin from './pages/representative_login';
-import Viewattendance from './pages/view_attendance';
-import Viewpermission from './pages/view_permission';
-import Retrieveattendance from './pages/retrieve_attendance';
-import Retrievepermission from './pages/retrieve_permission';
-import Rejectedpermission from './pages/rejected_permission';
-import React from 'react';
-import Addteacherpage from './pages/addteacherpage';
-import Teacherpage from './pages/teacher_page';
-import Teacherlogin from './pages/teacher_login';
-import Imageupload from './pages/image_upload';
-import Permissionimageretrieve from './pages/permissionimageretrieve_screen';
-import Retrievemonthlyattendance from './pages/retrievemonthlyattendance';
-import Retrievemonthlypermission from './pages/retrievemonthlypermission';
-import Pdfupload from './pages/pdfupload_page';
-import Monthlyreport from './pages/monthly_report';
-import Studentmonthlyattendance from './pages/studentmonthlyattendance';
-import { Viewtutors } from './pages/view_tutors';
-import { Viewstudents } from './pages/view_students';
-import { Viewfeedback } from './pages/view_feedback';
-import { Viewteachers } from './pages/view_teachers';
-import { Viewrepresentative } from './pages/view_representative';
-
+import Home from "./pages/home";
+import About from "./pages/about";
+import Service from "./pages/services";
+import Staff from "./pages/staff";
+import Contact from "./pages/contact";
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Studentlogin from "./pages/student_login";
+import Tutorlogin from "./pages/tutor_login";
+import Hodlogin from "./pages/hod_login";
+import LeaveForm from "./pages/leave_form";
+import TutorPage from "./pages/tutorpage";
+import Addstudentspage from "./pages/addstudentspage";
+import Hodpage from "./pages/hodpage";
+import Addtutorspage from "./pages/addtutorspage";
+import Permissionresponsepage from "./pages/permission_response";
+import Addrepresentativepage from "./pages/add_representative";
+import Representativepage from "./pages/representative_page";
+import Representativelogin from "./pages/representative_login";
+import Viewattendance from "./pages/view_attendance";
+import Viewpermission from "./pages/view_permission";
+import Retrieveattendance from "./pages/retrieve_attendance";
+import Retrievepermission from "./pages/retrieve_permission";
+import Rejectedpermission from "./pages/rejected_permission";
+import React from "react";
+import Addteacherpage from "./pages/addteacherpage";
+import Teacherpage from "./pages/teacher_page";
+import Teacherlogin from "./pages/teacher_login";
+import Imageupload from "./pages/image_upload";
+import Permissionimageretrieve from "./pages/permissionimageretrieve_screen";
+import Retrievemonthlyattendance from "./pages/retrievemonthlyattendance";
+import Retrievemonthlypermission from "./pages/retrievemonthlypermission";
+import Pdfupload from "./pages/pdfupload_page";
+import Monthlyreport from "./pages/monthly_report";
+import Studentmonthlyattendance from "./pages/studentmonthlyattendance";
+import { Viewtutors } from "./pages/view_tutors";
+import { Viewstudents } from "./pages/view_students";
+import { Viewfeedback } from "./pages/view_feedback";
+import { Viewteachers } from "./pages/view_teachers";
+import { Viewrepresentative } from "./pages/view_representative";
+import Transportlogin from "./pages/transport_login";
+import Transportpage from "./pages/transport_page";
+import Viewbuses from "./pages/view_buses";
+import Viewtransport from "./pages/view_transport";
+import Updatebuses from "./pages/update_buses";
 
 class App extends React.Component {
-
   render() {
-
     return (
-
       <Router>
         <div className="App">
           <Switch>
@@ -197,11 +198,24 @@ class App extends React.Component {
             <Route exact path="/Monthlyreport">
               <Monthlyreport />
             </Route>
+            <Route exact path="/transportlogin">
+              <Transportlogin />
+            </Route>
+            <Route exact path="/Transportpage">
+              <Transportpage />
+            </Route>
+            <Route exact path="/viewbuses">
+              <Viewbuses />
+            </Route>
+            <Route exact path="/Transport">
+              <Viewtransport />
+            </Route>
+            <Route exact path="/updatebuses">
+              <Updatebuses />
+            </Route>
           </Switch>
-
         </div>
       </Router>
-
     );
   }
 }
